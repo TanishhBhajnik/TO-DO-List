@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #FFF;
+    /* color: aliceblue; */
+    color: #6e2485;
+    text-transform: uppercase;
+    
+}
+
+header{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    color: #6e2485;
+}
+
+header h1 {
+    /* text-align: center; */
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+    
+}
+
+/* #task-form{
+    display: flex;
+} */
+
+/* input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+} */
+
+#InputField {
+    border-radius: 1rem;
+    border-width: 1.5px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+
+    
+    
+}
+
+/* #InputField ::placeholder {
+    
+} */
+
+#task-submit {
+    /* flex: 2 2 0; */
+    background-color: #6e2485;
+    /* padding: 12px; */
+    width: 70px;
+    height: 30px;
+    border-radius: 1rem;
+    margin: 0 40px;
+    /* margin-right: 7rem; */
+    color: lightpink;
+    font-size: 1rem;
+}
+
+.task-list {
+    margin-left: 280px;
+}
+.task-list h2 {
+
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #6e2485;
+}
+
+#tasks .task{
+    margin: 20px;
+    width: 125vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dab8da;
+    padding: 10px;
+    border-radius: 1rem;
+
+}
+
+/* #tasks .task .text {
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+
+} */
+
+#tasks .actions .delete{
+    background-color: #6e2485;
+    margin-right: 250px;
+    border-radius: 100px;
+    color: lightpink;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    
+}
+
+/* #tasks .task .content .text {
+    color: rgb(85, 9, 20);
+    font-size: 1.1rem;
+    display: block;
+    width: 100%;
+} */
+
+
+
